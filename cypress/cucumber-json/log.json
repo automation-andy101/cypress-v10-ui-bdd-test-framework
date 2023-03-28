@@ -1,0 +1,58 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "category-filter;as-a-demoblaze-user-i-want-to-filter-by-laptops-so-that-i-can-only-see-only-laptop-products",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "As a DemoBlaze user I want to filter by laptops so that I can only see only laptop products",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am on the DemoBlaze website home page",
+            "result": {
+              "duration": 1205000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click on the Monitors filter button",
+            "result": {
+              "duration": 109000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 6,
+            "name": "only Monitor products appear",
+            "result": {
+              "duration": 460000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "category-filter",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Category filter",
+    "uri": "cypress/e2e/features/CategoryFilter.feature"
+  }
+]
